@@ -1,0 +1,60 @@
+run_name: image_pcd_contrast
+seed: 42
+loglevel: INFO
+distributed: False
+
+wandb_on: True
+entity: "mhson-kyle"
+
+# Training Hyperparameters
+max_epochs: 200
+save_freq : 1 # epoch
+log_freq : 100 # Iteration
+
+optimizer: 'adamw'
+scheduler: 'warmup_cosine'
+base_lr : 1e-4
+warmup_epochs: 5
+
+resume: 
+
+# Dataset:
+data_dir : '/ssddata/data/mhson/DATA/CBCT/Dataset124_DBT/'
+json_file: './datasets/paired_datalist.json'
+num_workers: 16
+train_batch_size : 1
+
+# Monai Dataset
+use_persistent_dataset: true
+cache_dir: "/ssddata/data/mhson/nnUNet/nnUNet_raw/Dataset124_DBT/cache"
+a_min: 0.0
+a_max: 2500.0
+b_min: 0.0
+b_max: 1.0
+space_x: 0.3
+space_y: 0.3
+space_z: 0.3
+
+# Model
+# Image Encoder
+model: ImagePCDModel
+in_channels : 1
+feature_size: 48
+roi_x: 256
+roi_y: 256
+roi_z: 64
+dropout_rate: 0.0
+dropout_path_rate: 0.0
+
+# PCD Encoder
+k: 1
+input_feat: 6
+stride: [1, 4, 4, 4, 4]
+nstride: [2, 2, 2, 2]
+nsample: [36, 24, 24, 24, 24]
+blocks: [2, 3, 4, 6, 3]
+block_num: 5
+planes: [32, 64, 128, 256, 512]
+contain_weight: False
+crop_sample_size: 3072
+

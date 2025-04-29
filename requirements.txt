@@ -1,0 +1,14 @@
+monai==1.14
+einops
+SimpleITK
+munch
+numpy==1.24
+trimesh
+open3d
+wandb
+pointops
+torch==1.12.1+cu116
+nibabel
+scipy
+einops
+dynamic_network_architecture

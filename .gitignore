@@ -1,0 +1,8 @@
+*/__pycache__/*
+runs/*
+*/wandb/*
+*/wandb
+runs
+__pycache__
+pretrained
+*gitignore/*

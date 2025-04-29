@@ -1,0 +1,14 @@
+# ninja log v5
+1	5764	1740541023870006142	/ssddata/data/mhson/CODE/ios-seg/external_libs/pointops/build/temp.linux-x86_64-cpython-39/src/knnquery/knnquery_cuda.o	cf6fd0b439032703
+0	5791	1740541023897006212	/ssddata/data/mhson/CODE/ios-seg/external_libs/pointops/build/temp.linux-x86_64-cpython-39/src/aggregation/aggregation_cuda.o	37dce783cf265af9
+1	5792	1740541023897006212	/ssddata/data/mhson/CODE/ios-seg/external_libs/pointops/build/temp.linux-x86_64-cpython-39/src/interpolation/interpolation_cuda.o	c4b41a7fe7e6d224
+1	5800	1740541023906006236	/ssddata/data/mhson/CODE/ios-seg/external_libs/pointops/build/temp.linux-x86_64-cpython-39/src/sampling/sampling_cuda.o	810c9c6b7f41f2e6
+2	5824	1740541023931006300	/ssddata/data/mhson/CODE/ios-seg/external_libs/pointops/build/temp.linux-x86_64-cpython-39/src/subtraction/subtraction_cuda.o	4ad84471d537271c
+0	5854	1740541023960006375	/ssddata/data/mhson/CODE/ios-seg/external_libs/pointops/build/temp.linux-x86_64-cpython-39/src/grouping/grouping_cuda.o	c244d064435b2f7d
+1	13783	1740541031885026835	/ssddata/data/mhson/CODE/ios-seg/external_libs/pointops/build/temp.linux-x86_64-cpython-39/src/pointops_api.o	eb3f56f044914350
+0	17036	1740541035140035239	/ssddata/data/mhson/CODE/ios-seg/external_libs/pointops/build/temp.linux-x86_64-cpython-39/src/aggregation/aggregation_cuda_kernel.o	d57dfc33881df419
+1	17036	1740541035142035244	/ssddata/data/mhson/CODE/ios-seg/external_libs/pointops/build/temp.linux-x86_64-cpython-39/src/grouping/grouping_cuda_kernel.o	12901c75263e4ea4
+2	17103	1740541035206035409	/ssddata/data/mhson/CODE/ios-seg/external_libs/pointops/build/temp.linux-x86_64-cpython-39/src/subtraction/subtraction_cuda_kernel.o	5c2f1e35206730b4
+0	17118	1740541035224035456	/ssddata/data/mhson/CODE/ios-seg/external_libs/pointops/build/temp.linux-x86_64-cpython-39/src/knnquery/knnquery_cuda_kernel.o	490dbb3185f02e4d
+1	17249	1740541035355035794	/ssddata/data/mhson/CODE/ios-seg/external_libs/pointops/build/temp.linux-x86_64-cpython-39/src/interpolation/interpolation_cuda_kernel.o	b93b60fbd0a1258
+1	17311	1740541035417035954	/ssddata/data/mhson/CODE/ios-seg/external_libs/pointops/build/temp.linux-x86_64-cpython-39/src/sampling/sampling_cuda_kernel.o	fb5bb9f4e957e7f8
