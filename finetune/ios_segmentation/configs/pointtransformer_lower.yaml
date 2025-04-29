@@ -1,0 +1,44 @@
+run_name: ours_lower
+seed: 42
+loglevel: INFO
+
+wandb_on: False
+
+# Trainer
+pretrained: pretrained
+max_epochs: 500
+save_freq : 10 # epoch
+log_freq : 500 # Iteration
+patience: 5
+amp: True
+
+optimizer: adamw
+base_lr: 3.0e-4
+momentum: 0.9
+weight_decay: 1.0e-5
+
+scheduler: warmup_cosine
+warmup_epochs: 10
+
+loss:
+    tooth_class_loss_1: 1
+
+# Dataset:
+data_dir: /ssddata/data/mhson/DATA/IOS/
+dataset_json: ./datasets
+jaw: lower
+
+# Model
+model_name: ours
+train_batch_size: 1
+val_batch_size: 1
+
+model_parameter:
+    input_feat: 6
+    stride: [1, 4, 4, 4, 4]
+    nsample: [36, 24, 24, 24, 24]
+    blocks: [2, 3, 4, 6, 3]
+    block_num: 5
+    planes: [32, 64, 128, 256, 512]
+
+    crop_sample_size: 3072

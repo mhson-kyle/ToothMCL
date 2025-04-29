@@ -1,0 +1,14 @@
+# ninja log v5
+1	13548	1740540194089811955	/ssddata/data/mhson/CODE/ios-seg/external_libs/pointops/build/temp.linux-x86_64-cpython-310/src/pointops_api.o	51afd9d65f7a749c
+0	16530	1740540197075820019	/ssddata/data/mhson/CODE/ios-seg/external_libs/pointops/build/temp.linux-x86_64-cpython-310/src/interpolation/interpolation_cuda_kernel.o	455c72cc02319dff
+0	16617	1740540197162820261	/ssddata/data/mhson/CODE/ios-seg/external_libs/pointops/build/temp.linux-x86_64-cpython-310/src/knnquery/knnquery_cuda_kernel.o	3720fc1f288cad53
+1	16911	1740540197455821076	/ssddata/data/mhson/CODE/ios-seg/external_libs/pointops/build/temp.linux-x86_64-cpython-310/src/subtraction/subtraction_cuda_kernel.o	6f26a275da090f2b
+0	16933	1740540197477821138	/ssddata/data/mhson/CODE/ios-seg/external_libs/pointops/build/temp.linux-x86_64-cpython-310/src/grouping/grouping_cuda_kernel.o	fd57d7f6102ded19
+1	17103	1740540197648821613	/ssddata/data/mhson/CODE/ios-seg/external_libs/pointops/build/temp.linux-x86_64-cpython-310/src/sampling/sampling_cuda_kernel.o	53836d6794471a3
+0	17243	1740540197788822003	/ssddata/data/mhson/CODE/ios-seg/external_libs/pointops/build/temp.linux-x86_64-cpython-310/src/aggregation/aggregation_cuda_kernel.o	d9114f8a7266be1
+8	5462	1740540288604074690	/ssddata/data/mhson/CODE/ios-seg/external_libs/pointops/build/temp.linux-x86_64-cpython-310/src/sampling/sampling_cuda.o	2a0f5dc3ccdd4e68
+9	5464	1740540288604074690	/ssddata/data/mhson/CODE/ios-seg/external_libs/pointops/build/temp.linux-x86_64-cpython-310/src/subtraction/subtraction_cuda.o	9bbf832ed68ca3d5
+8	5543	1740540288685074915	/ssddata/data/mhson/CODE/ios-seg/external_libs/pointops/build/temp.linux-x86_64-cpython-310/src/aggregation/aggregation_cuda.o	66860f3b4362d45e
+8	5580	1740540288722075018	/ssddata/data/mhson/CODE/ios-seg/external_libs/pointops/build/temp.linux-x86_64-cpython-310/src/interpolation/interpolation_cuda.o	17d15cf965ff735a
+8	5591	1740540288733075049	/ssddata/data/mhson/CODE/ios-seg/external_libs/pointops/build/temp.linux-x86_64-cpython-310/src/grouping/grouping_cuda.o	9018c743ed55b37b
+8	5596	1740540288738075063	/ssddata/data/mhson/CODE/ios-seg/external_libs/pointops/build/temp.linux-x86_64-cpython-310/src/knnquery/knnquery_cuda.o	a880c569e4e378b3
